@@ -6,10 +6,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Rsquared Academy - R Tutorials</title>
+    <meta name="description" content="Rsquared Academy Interactive Tutorials">
+    <meta name="author" content="Rsquared Academy">
+    <link rel="canonical" href="https://tutorials.rsquaredacademy.com/" />
+    <title>Rsquared Academy - Interactive Tutorials</title>
+    <meta property="og:url" content="https://tutorials.rsquaredacademy.com/"/>
+    <meta property="og:title" content="Rsquared Academy"/>
+    <meta property="og:site_name" content="tutorials.rsquaredacademy.com"/>
+    <meta property="og:description" content="Rsquared Academy Interactive Tutorials."/>
+    <meta name="keywords" content="aravind, hebbali, rsquared, academy, interactive, shiny, tutorials, R" />
+    <meta name="description" content="Rsquared Academy Interactive Tutorials" />
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,6 +29,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57270671-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-57270671-9');
+    </script>
+
 
 </head>
 
@@ -45,19 +62,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://www.rsquaredacademy.com/tutorials/" target="_blank">Home</a>
+                        <a href="https://tutorials.rsquaredacademy.com/" target="_blank">Home</a>
                     </li>
                     <li>
-                        <a href="http://www.rsquaredacademy.com" target="_blank">Courses</a>
+                        <a href="https://www.rsquaredacademy.com/" target="_blank">Courses</a>
                     </li>
                     <li>
-                        <a href="http://www.rsquaredacademy.com/blog/" target="_blank">Blog</a>
+                        <a href="https://blog.rsquaredacademy.com/" target="_blank">Blog</a>
                     </li>
                     <li>
-                        <a href="http://www.rsquaredacademy.com/apps/" target="_blank">Apps</a>
+                        <a href="https://apps.rsquaredacademy.com/" target="_blank">Apps</a>
                     </li>
                     <li>
-                        <a href="http://www.rsquaredacademy.com/pkgs/" target="_blank">Packages</a>
+                        <a href="https://pkgs.rsquaredacademy.com/" target="_blank">Packages</a>
                     </li>
                     <!-- <li>
                         <a href="https://rsquaredacademy.github.io/blog/" target="_blank">Blog</a>
@@ -84,6 +101,7 @@
         <!-- /.container -->
     </nav>
 
+
     <!-- Page Content -->
     <div class="container">
 
@@ -102,83 +120,111 @@
         <!--- </header> -->
 
         <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">  
-              <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#intro">+</button> Introduction to R</h3>
-              <div id="intro" class="collapse">
-                <ul>
-                  <li><a href="" target="_blank">Introduction</a></li>
-                  <li><a href="" target="_blank">Vectors</a></li>
-                  <li><a href="" target="_blank">Matrices</a></li>
-                  <li><a href="" target="_blank">Lists</a></li>
-                  <li><a href="" target="_blank">Dataframes</a></li>
-                </ul>
-              </div>
-              <div>
-                <hr>
-              </div>
-            </div>
+          <div class="row">            
 
             <div class="col-sm-12 col-md-12 col-lg-6">  
               <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#import">+</button> Importing Data into R</h3>
               <div id="import" class="collapse">
                 <ul>
                   <li>
-                    <a href="" target="_blank">Import Data from Delimited Files</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/import-data-in-r-part-1/" target="_blank">Import Data from Delimited Files</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Import Data from Excel & Statistical Softwares</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Import Data from JSON & XML</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/import-data-in-r-part-2/" target="_blank">Import Data from Excel & Statistical Softwares</a>
                   </li>
                 </ul>
               </div>
-              <div>
-                <hr>
-              </div>
             </div>
-          </div>  
 
-          <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">  
               <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#wrang1">+</button> Data Wrangling - Part 1</h3>
               <div id="wrang1" class="collapse">
                 <ul>
                   <li>
-                    <a href="" target="_blank">Introduction to dplyr Verbs</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/dplyr-part-1/" target="_blank">Introduction to dplyr Verbs</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Joining Tables with dplyr</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/dplyr-part-2/" target="_blank">Joining Tables with dplyr</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">dplyr Helpers</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/dplyr-part-3/" target="_blank">dplyr Helpers</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">tibbles & Pipes</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/tibbles/" target="_blank">Introduction to tibbles</a>
+                  </li>
+                  <li>
+                    <a href="https://www.rsquaredcomputing.com/shiny/pipes/" target="_blank">Readable Code with Pipes</a>
                   </li>
                 </ul>
               </div>
+            </div>
+
+          </div>  
+
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">  
               <div>
                 <hr>
               </div>
             </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">  
+              <div>
+                <hr>
+              </div>
+            </div>
+          </div>
 
+          <div class="row">
+            
             <div class="col-sm-12 col-md-12 col-lg-6">  
               <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#wrang2">+</button> Data Wrangling - Part 2</h3>
               <div id="wrang2" class="collapse">
                 <ul>
                   <li>
-                    <a href="" target="_blank">String Manipulation with stringr</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/hacking-strings-with-stringr/" target="_blank">Hacking Strings with stringr</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Dates Manipulation with lubridate</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/manipulate-date-time-with-lubridate/" target="_blank">Handle Date/Time with lubridate</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Working with Categorical Data using forcats</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/categorical-data-analysis-with-forcats/" target="_blank">Categorical Data Analysis using forcats</a>
                   </li>
                 </ul>
               </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-6">  
+              <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#db">+</button> Databases & SQL</h3>
+              <div id="db" class="collapse">
+                <ul>
+                  <li>
+                    <a href="https://www.rsquaredcomputing.com/shiny/rsqlite-intro/" target="_blank">Introduction to DBI & RSQLite</a>
+                  </li>
+                  <li>
+                    <a href="https://www.rsquaredcomputing.com/shiny/sql-part-1/" target="_blank">SQL for Data Science - Part 1</a>
+                  </li>
+                  <li>
+                    <a href="https://www.rsquaredcomputing.com/shiny/sql-part-2/" target="_blank">SQL for Data Science - Part 2</a>
+                  </li>
+                  <li>
+                    <a href="https://www.rsquaredcomputing.com/shiny/sql-part-3/" target="_blank">SQL for Data Science - Part 3</a>
+                  </li>
+                  <li>
+                    <a href="https://www.rsquaredcomputing.com/shiny/sql-part-4/" target="_blank">SQL for Data Science - Part 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">  
+              <div>
+                <hr>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">  
               <div>
                 <hr>
               </div>
@@ -191,39 +237,36 @@
               <div id="viz1" class="collapse">
                 <ul>
                   <li>
-                    <a href="" target="_blank">Introduction</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-introduction/" target="_blank">Introduction</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Quick Tour</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-quick-tour/" target="_blank">Quick Tour</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Geoms</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-geoms/" target="_blank">Geoms</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Aesthetics</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-aesthetics/" target="_blank">Aesthetics</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Text Annotations</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-text-annotations/" target="_blank">Text Annotations</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Scatter Plot</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-scatter-plot/" target="_blank">Scatter Plot</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Bar Plot</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-bar-chart/" target="_blank">Bar Plot</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Box Plot</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-box-plot/" target="_blank">Box Plot</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Line Chart</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-line-graph/" target="_blank">Line Chart</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Histogram</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-histogram/" target="_blank">Histogram</a>
                   </li>
                 </ul>
-              </div>
-              <div>
-                <hr>
               </div>
             </div>
 
@@ -232,95 +275,35 @@
               <div id="viz3" class="collapse">
                 <ul>
                   <li>
-                    <a href="" target="_blank">Guides</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-guides-and-axes/" target="_blank">Guides</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Axes</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-guides-and-axes/" target="_blank">Axes</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Facets</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-facets/" target="_blank">Facets</a>
                   </li>
                   <li>
-                    <a href="" target="_blank">Themes</a>
+                    <a href="https://www.rsquaredcomputing.com/shiny/ggplot2-guides-and-axes/" target="_blank">Themes</a>
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">  
+              <div>
+                <hr>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">  
               <div>
                 <hr>
               </div>
             </div>
           </div>
 
-            <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">  
-              <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#viz2">+</button> Data Visualization - Base</h3>
-              <div id="viz2" class="collapse">
-                <ul>
-                  <li>
-                    <a href="" target="_blank">Introduction</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Axis Title & Labels</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Scatter Plot</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Bar Plot</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Box Plot</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Line Chart</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Histogram</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Text Annotations</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Legends</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Facets</a>
-                  </li>
-                </ul>
-                </ul>
-              </div>
-              <div>
-                <hr>
-              </div>
-            </div>
-        
-
-          
-            <div class="col-sm-12 col-md-12 col-lg-6">  
-              <h3> <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#db">+</button> Databases & SQL</h3>
-              <div id="db" class="collapse">
-                <ul>
-                  <li>
-                    <a href="" target="_blank">Introduction to DBI & RSQLite</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Introduction to dbplyr</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Introduction to SQL</a>
-                  </li>
-                  <li>
-                    <a href="" target="_blank">Advanced SQL</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <hr>
-              </div>
-            </div>
-
-            
-          </div>
 
         </div>
 
@@ -328,7 +311,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p style="text-align:center;">Copyright &copy; Rsquared Academy 2014-2017</p>
+                    <p style="text-align:center;">Copyright &copy; Rsquared Academy 2014-2018</p>
                 </div>
             </div>
         </footer>
